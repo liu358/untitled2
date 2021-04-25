@@ -4,6 +4,9 @@ public class Cycle {
     public void play() {
         System.out.println("Cycle");
     }
+    public void wheels(){
+        System.out.println("轮子的数量是"+"num");
+    }
 }
     class Unicycle extends Cycle {
         public void play() {
@@ -35,6 +38,9 @@ public class Cycle {
             ride(unicycle);
             ride(bicycle);
             ride(tricycle);
+            unicycle.wheels();
+            bicycle.wheels();
+            tricycle.wheels();
 
         }
     }
