@@ -12,17 +12,26 @@ public class Cycle {
         public void play() {
             System.out.println("Unicycle");
         }
+        public void wheels(){
+            System.out.println("Unicycle wheels:4");
+        }
     }
 
     class Bicycle extends Cycle {
         public void play() {
             System.out.println("Bicycle");
         }
+        public void wheels(){
+             System.out.println("Bicycle wheels:2");
+        }
     }
 
     class Tricycle extends Cycle {
         public void play() {
             System.out.println("Tricycle");
+        }
+        public void wheels(){
+            System.out.println("Tricycle wheels:3");
         }
     }
 
