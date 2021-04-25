@@ -6,7 +6,9 @@ package 薪水;
     }
 
     class YearWorker extends Employee {
-
+public double earnings(){
+    return 12000;
+}
     }
 
     class MonthWorker extends Employee {
@@ -38,7 +40,7 @@ package 薪水;
         }
     }
 
-    public class CompanySalary2 {
+    public class CompanySalary1{
         public static void main(String args[]) {
             Employee[] employee = new Employee[29];
             for (int i = 0; i < employee.length; i++) {
